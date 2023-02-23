@@ -1,0 +1,71 @@
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    border: 0px;
+}
+
+.quiz-container {
+    padding-top: 5px;
+    width: 75%;
+    margin: auto;
+    background-color: aquamarine;
+    margin-top: 150px;
+    height: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.nextbtn {
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.question {
+    text-align: center;
+    color: blue;
+    font-size: 2em;
+    width: 90%;
+}
+
+.options {
+    color: blueviolet;
+}
+
+.result {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
